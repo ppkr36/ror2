@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PracticeItemMod")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e71f00d6ea3e3bd5f35560fbd62b775a80c5d128")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c9ff5af299044afd92885b343fdd3990ba1d62a")]
 [assembly: System.Reflection.AssemblyProductAttribute("PracticeItemMod")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PracticeItemMod")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -27,7 +27,7 @@
           "lib/netstandard2.0/_._": {}
         },
         "build": {
-          "build/BepInEx.Core.targets": {}
+          "build/_._": {}
         }
       },
       "HarmonyX/2.7.0": {
@@ -63,6 +63,15 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "MMHOOK.RoR2/2025.11.19": {
+        "type": "package",
+        "compile": {
+          "lib/MMHOOK_RoR2.dll": {}
+        },
+        "runtime": {
+          "lib/MMHOOK_RoR2.dll": {}
         }
       },
       "Mono.Cecil/0.11.4": {
@@ -161,6 +170,90 @@
         },
         "runtime": {
           "lib/netstandard2.0/MonoMod.Utils.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "R2API.ContentManagement/1.0.10": {
+        "type": "package",
+        "dependencies": {
+          "BepInEx.Core": "5.4.19",
+          "MMHOOK.RoR2": "2025.6.3",
+          "R2API.Core": "5.1.5",
+          "RiskOfRain2.GameLibs": "1.3.9-r.0",
+          "RoR2BepInExPack": "1.30.0",
+          "UnityEngine.Modules": "2021.3.33"
+        },
+        "compile": {
+          "lib/netstandard2.1/R2API.ContentManagement.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/R2API.ContentManagement.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "R2API.Core/5.3.0": {
+        "type": "package",
+        "dependencies": {
+          "BepInEx.Core": "5.4.21",
+          "MMHOOK.RoR2": "2025.11.19",
+          "RiskOfRain2.GameLibs": "1.4.1-r.0",
+          "RoR2BepInExPack": "1.41.0",
+          "UnityEngine.Modules": "2021.3.33"
+        },
+        "compile": {
+          "lib/netstandard2.1/R2API.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/R2API.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "R2API.Items/1.0.8": {
+        "type": "package",
+        "dependencies": {
+          "BepInEx.Core": "5.4.21",
+          "MMHOOK.RoR2": "2025.11.19",
+          "R2API.ContentManagement": "1.0.10",
+          "R2API.Core": "5.3.0",
+          "RiskOfRain2.GameLibs": "1.4.1-r.0",
+          "RoR2BepInExPack": "1.41.0",
+          "UnityEngine.Modules": "2021.3.33"
+        },
+        "compile": {
+          "lib/netstandard2.1/R2API.Items.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/R2API.Items.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "R2API.Language/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "BepInEx.Core": "5.4.21",
+          "MMHOOK.RoR2": "2025.11.19",
+          "R2API.Core": "5.2.0",
+          "RiskOfRain2.GameLibs": "1.4.0-r.0",
+          "RoR2BepInExPack": "1.36.0",
+          "UnityEngine.Modules": "2021.3.33"
+        },
+        "compile": {
+          "lib/netstandard2.1/R2API.Language.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/R2API.Language.dll": {
             "related": ".xml"
           }
         }
@@ -705,7 +798,72 @@
           "lib/netstandard2.0/UnityEngine.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/_._": {}
+          "lib/netstandard2.0/UnityEngine.AIModule.dll": {},
+          "lib/netstandard2.0/UnityEngine.AccessibilityModule.dll": {},
+          "lib/netstandard2.0/UnityEngine.AndroidJNIModule.dll": {},
+          "lib/netstandard2.0/UnityEngine.AnimationModule.dll": {},
+          "lib/netstandard2.0/UnityEngine.AssetBundleModule.dll": {},
+          "lib/netstandard2.0/UnityEngine.AudioModule.dll": {},
+          "lib/netstandard2.0/UnityEngine.ClothModule.dll": {},
+          "lib/netstandard2.0/UnityEngine.ClusterInputModule.dll": {},
+          "lib/netstandard2.0/UnityEngine.ClusterRendererModule.dll": {},
+          "lib/netstandard2.0/UnityEngine.CoreModule.dll": {},
+          "lib/netstandard2.0/UnityEngine.CrashReportingModule.dll": {},
+          "lib/netstandard2.0/UnityEngine.DSPGraphModule.dll": {},
+          "lib/netstandard2.0/UnityEngine.DirectorModule.dll": {},
+          "lib/netstandard2.0/UnityEngine.GIModule.dll": {},
+          "lib/netstandard2.0/UnityEngine.GameCenterModule.dll": {},
+          "lib/netstandard2.0/UnityEngine.GridModule.dll": {},
+          "lib/netstandard2.0/UnityEngine.HotReloadModule.dll": {},
+          "lib/netstandard2.0/UnityEngine.IMGUIModule.dll": {},
+          "lib/netstandard2.0/UnityEngine.ImageConversionModule.dll": {},
+          "lib/netstandard2.0/UnityEngine.InputLegacyModule.dll": {},
+          "lib/netstandard2.0/UnityEngine.InputModule.dll": {},
+          "lib/netstandard2.0/UnityEngine.JSONSerializeModule.dll": {},
+          "lib/netstandard2.0/UnityEngine.LocalizationModule.dll": {},
+          "lib/netstandard2.0/UnityEngine.ParticleSystemModule.dll": {},
+          "lib/netstandard2.0/UnityEngine.PerformanceReportingModule.dll": {},
+          "lib/netstandard2.0/UnityEngine.Physics2DModule.dll": {},
+          "lib/netstandard2.0/UnityEngine.PhysicsModule.dll": {},
+          "lib/netstandard2.0/UnityEngine.ProfilerModule.dll": {},
+          "lib/netstandard2.0/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll": {},
+          "lib/netstandard2.0/UnityEngine.ScreenCaptureModule.dll": {},
+          "lib/netstandard2.0/UnityEngine.SharedInternalsModule.dll": {},
+          "lib/netstandard2.0/UnityEngine.SpriteMaskModule.dll": {},
+          "lib/netstandard2.0/UnityEngine.SpriteShapeModule.dll": {},
+          "lib/netstandard2.0/UnityEngine.StreamingModule.dll": {},
+          "lib/netstandard2.0/UnityEngine.SubstanceModule.dll": {},
+          "lib/netstandard2.0/UnityEngine.SubsystemsModule.dll": {},
+          "lib/netstandard2.0/UnityEngine.TLSModule.dll": {},
+          "lib/netstandard2.0/UnityEngine.TerrainModule.dll": {},
+          "lib/netstandard2.0/UnityEngine.TerrainPhysicsModule.dll": {},
+          "lib/netstandard2.0/UnityEngine.TextCoreFontEngineModule.dll": {},
+          "lib/netstandard2.0/UnityEngine.TextCoreTextEngineModule.dll": {},
+          "lib/netstandard2.0/UnityEngine.TextRenderingModule.dll": {},
+          "lib/netstandard2.0/UnityEngine.TilemapModule.dll": {},
+          "lib/netstandard2.0/UnityEngine.UIElementsModule.dll": {},
+          "lib/netstandard2.0/UnityEngine.UIElementsNativeModule.dll": {},
+          "lib/netstandard2.0/UnityEngine.UIModule.dll": {},
+          "lib/netstandard2.0/UnityEngine.UNETModule.dll": {},
+          "lib/netstandard2.0/UnityEngine.UmbraModule.dll": {},
+          "lib/netstandard2.0/UnityEngine.UnityAnalyticsCommonModule.dll": {},
+          "lib/netstandard2.0/UnityEngine.UnityAnalyticsModule.dll": {},
+          "lib/netstandard2.0/UnityEngine.UnityConnectModule.dll": {},
+          "lib/netstandard2.0/UnityEngine.UnityCurlModule.dll": {},
+          "lib/netstandard2.0/UnityEngine.UnityTestProtocolModule.dll": {},
+          "lib/netstandard2.0/UnityEngine.UnityWebRequestAssetBundleModule.dll": {},
+          "lib/netstandard2.0/UnityEngine.UnityWebRequestAudioModule.dll": {},
+          "lib/netstandard2.0/UnityEngine.UnityWebRequestModule.dll": {},
+          "lib/netstandard2.0/UnityEngine.UnityWebRequestTextureModule.dll": {},
+          "lib/netstandard2.0/UnityEngine.UnityWebRequestWWWModule.dll": {},
+          "lib/netstandard2.0/UnityEngine.VFXModule.dll": {},
+          "lib/netstandard2.0/UnityEngine.VRModule.dll": {},
+          "lib/netstandard2.0/UnityEngine.VehiclesModule.dll": {},
+          "lib/netstandard2.0/UnityEngine.VideoModule.dll": {},
+          "lib/netstandard2.0/UnityEngine.VirtualTexturingModule.dll": {},
+          "lib/netstandard2.0/UnityEngine.WindModule.dll": {},
+          "lib/netstandard2.0/UnityEngine.XRModule.dll": {},
+          "lib/netstandard2.0/UnityEngine.dll": {}
         }
       }
     }
@@ -804,6 +962,18 @@
         "runtime.json"
       ]
     },
+    "MMHOOK.RoR2/2025.11.19": {
+      "sha512": "KWSWIE3e48MkAdyo1tVX22ekCAVr+fzyqoktjno6Wn5kh0OwdrCv0xQ4MVhvaysLaqFEbzN7cYF8OIKFu+sTIg==",
+      "type": "package",
+      "path": "mmhook.ror2/2025.11.19",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MMHOOK_RoR2.dll",
+        "mmhook.ror2.2025.11.19.nupkg.sha512",
+        "mmhook.ror2.nuspec"
+      ]
+    },
     "Mono.Cecil/0.11.4": {
       "sha512": "IC1h5g0NeJGHIUgzM1P82ld57knhP0IcQfrYITDPXlNpMYGUrsG5TxuaWTjaeqDNQMBDNZkB8L0rBnwsY6JHuQ==",
       "type": "package",
@@ -890,6 +1060,58 @@
         "lib/netstandard2.0/MonoMod.Utils.xml",
         "monomod.utils.21.12.13.1.nupkg.sha512",
         "monomod.utils.nuspec"
+      ]
+    },
+    "R2API.ContentManagement/1.0.10": {
+      "sha512": "9016lfc4/vy4jOBe6emTH6fH9onLQFSmmJF0NKlGekM6OSbJ16A2xbeRw0TJMixEgpEXgVn+ind/AbHdRLKPpQ==",
+      "type": "package",
+      "path": "r2api.contentmanagement/1.0.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.1/R2API.ContentManagement.dll",
+        "lib/netstandard2.1/R2API.ContentManagement.xml",
+        "r2api.contentmanagement.1.0.10.nupkg.sha512",
+        "r2api.contentmanagement.nuspec"
+      ]
+    },
+    "R2API.Core/5.3.0": {
+      "sha512": "NPsddHRbyZ5TX3/QqlWOBDXFsuZ206H4qxcTjU9nwPlkmuS9fMCcYdWqNaXKJG8KLcHTUU2UF8nJOX1NmDTTXA==",
+      "type": "package",
+      "path": "r2api.core/5.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.1/R2API.Core.dll",
+        "lib/netstandard2.1/R2API.Core.xml",
+        "r2api.core.5.3.0.nupkg.sha512",
+        "r2api.core.nuspec"
+      ]
+    },
+    "R2API.Items/1.0.8": {
+      "sha512": "PrX7V2A1wPvZLSvCYoQiPPMji/U/R18pskOlIZSAOKLVNAL1K/Th4N7rdttk3PKyGfWE7IPLLFDfgF494XUpGA==",
+      "type": "package",
+      "path": "r2api.items/1.0.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.1/R2API.Items.dll",
+        "lib/netstandard2.1/R2API.Items.xml",
+        "r2api.items.1.0.8.nupkg.sha512",
+        "r2api.items.nuspec"
+      ]
+    },
+    "R2API.Language/1.1.0": {
+      "sha512": "UFvixNEM6vvzgv/xD1oec0FuAEsuthPGHxiTtzBRSwblj2uKhEVPluODv80OHpsDRuHLEHBLWOGDn+jOZSxTTg==",
+      "type": "package",
+      "path": "r2api.language/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.1/R2API.Language.dll",
+        "lib/netstandard2.1/R2API.Language.xml",
+        "r2api.language.1.1.0.nupkg.sha512",
+        "r2api.language.nuspec"
       ]
     },
     "RiskOfRain2.GameLibs/1.4.1-r.0": {
@@ -2821,10 +3043,9 @@
   "projectFileDependencyGroups": {
     "netstandard2.1": [
       "BepInEx.Analyzers >= 1.0.*",
-      "BepInEx.Core >= 5.4.21",
-      "RiskOfRain2.GameLibs >= *-*",
-      "RoR2BepInExPack >= *",
-      "UnityEngine.Modules >= 2021.3.33"
+      "R2API.Items >= 1.0.8",
+      "R2API.Language >= 1.1.0",
+      "RoR2BepInExPack >= 1.43.0"
     ]
   },
   "packageFolders": {
@@ -2880,22 +3101,17 @@
             "target": "Package",
             "version": "[1.0.*, )"
           },
-          "BepInEx.Core": {
+          "R2API.Items": {
             "target": "Package",
-            "version": "[5.4.21, )"
+            "version": "[1.0.8, )"
           },
-          "RiskOfRain2.GameLibs": {
+          "R2API.Language": {
             "target": "Package",
-            "version": "[*-*, )"
+            "version": "[1.1.0, )"
           },
           "RoR2BepInExPack": {
             "target": "Package",
-            "version": "[*, )"
-          },
-          "UnityEngine.Modules": {
-            "include": "Compile",
-            "target": "Package",
-            "version": "[2021.3.33, )"
+            "version": "[1.43.0, )"
           }
         },
         "imports": [
@@ -2917,5 +3133,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'MMHOOK.RoR2 2025.11.19' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework '.NETStandard,Version=v2.1'. This package may not be fully compatible with your project.",
+      "libraryId": "MMHOOK.RoR2",
+      "targetGraphs": [
+        "netstandard2.1"
+      ]
+    }
+  ]
 }
